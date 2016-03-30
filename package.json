@@ -1,0 +1,26 @@
+{
+  "name": "carquery-api",
+  "version": "0.0.0",
+  "description": "A Node.js wrapper for the CarQuery API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franvarney/node-carquery-api.git"
+  },
+  "keywords": [
+    "CarQuery",
+    "car",
+    "vehicle",
+    "automobile",
+    "API"
+  ],
+  "author": "Fran Varney <fran.varn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franvarney/node-carquery-api/issues"
+  },
+  "homepage": "https://github.com/franvarney/node-carquery-api#readme"
+}
