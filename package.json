@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/franvarney/node-carquery-api/issues"
   },
-  "homepage": "https://github.com/franvarney/node-carquery-api#readme"
+  "homepage": "https://github.com/franvarney/node-carquery-api#readme",
+  "dependencies": {
+    "request": "2.69.0"
+  }
 }
