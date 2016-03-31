@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/franvarney/node-carquery-api#readme",
   "dependencies": {
+    "joi": "8.0.5",
     "request": "2.69.0"
   }
 }
