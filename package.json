@@ -28,6 +28,7 @@
     "request": "2.69.0"
   },
   "devDependencies": {
+    "code": "2.2.0",
     "lab": "10.3.1"
   }
 }
