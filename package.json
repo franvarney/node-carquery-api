@@ -4,6 +4,7 @@
   "description": "A Node.js wrapper for the CarQuery API.",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
