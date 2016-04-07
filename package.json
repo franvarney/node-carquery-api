@@ -26,5 +26,8 @@
   "dependencies": {
     "joi": "8.0.5",
     "request": "2.69.0"
+  },
+  "devDependencies": {
+    "lab": "10.3.1"
   }
 }
