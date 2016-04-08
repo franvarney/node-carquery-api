@@ -7,4 +7,3 @@ module.exports = {
   getTrims: CarQuery.request.bind(null, 'getTrims', 'trim'),
   getYears: CarQuery.request.bind(null, 'getYears', 'year'),
 };
-
