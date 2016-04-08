@@ -6,13 +6,12 @@ const Request = require('request');
 const Sinon = require('sinon');
 
 const CarQuery = require('../lib/car-query');
-const Schemas = require('../lib/schemas');
 
 const expect = Code.expect;
 const lab = exports.lab = Lab.script();
 const after = lab.after;
 const before = lab.before;
-const beforeEach = lab.beforeEach
+const beforeEach = lab.beforeEach;
 const describe = lab.describe;
 const it = lab.it;
 
@@ -32,7 +31,7 @@ describe('lib/car-query', () => {
     Request.get.yields(new Error('request error'));
     Joi.validate.yields(new Error('validate error'));
     done();
-  })
+  });
 
   after((done) => {
     Nock.cleanAll();
