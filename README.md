@@ -7,7 +7,7 @@ const CarQuery = require('carquery-api');
 
 CarQuery.getYears((err, results) => {
   if (err) return err;
-  return console.log(results); // { minYear: 1940, maxYear: 2016 }
+  return console.log(results); // { minimum: 1940, maximum: 2016 }
 });
 ```
 

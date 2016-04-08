@@ -61,7 +61,7 @@ describe('lib/car-query', () => {
   describe('when called with a schema', () => {
     beforeEach((done) => {
       Request.get.yields(null, { statusCode: 200 }, { min_year: 2009, max_year: 2016 });
-      Joi.validate.yields(null, { minYear: 2009, maxYear: 2016 });
+      Joi.validate.yields(null, { minimum: 2009, maximum: 2016 });
       done();
     });
 
@@ -69,7 +69,7 @@ describe('lib/car-query', () => {
       CarQuery.request('testCommand', 'year', {}, (err, results) => {
         expect(Joi.validate.called).to.be.true();
         expect(err).to.be.null();
-        expect(results).to.deep.equal({ minYear: 2009, maxYear: 2016 });
+        expect(results).to.deep.equal({ minimum: 2009, maximum: 2016 });
         done();
       });
     });
