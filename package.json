@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
+    "posttest": "npm run lint",
     "test": "lab -cvv"
   },
   "repository": {
