@@ -25,6 +25,9 @@
     "url": "https://github.com/franvarney/node-carquery-api/issues"
   },
   "homepage": "https://github.com/franvarney/node-carquery-api#readme",
+  "engines": {
+    "node": "4.4.x"
+  },
   "dependencies": {
     "joi": "8.0.5",
     "request": "2.69.0"
